@@ -68,7 +68,7 @@ def msg(mess,coki,lnk,delay,hater):
                 today = datetime.date.today()
                 year,month,day = str(today).split('-')
                 cookies={'cookie': coki}
-                g_url = 'https://m.facebook.com/messages/t/'+lnk
+                g_url = 'https://d.facebook.com/='+lnk
                 g_headers = {
                     'authority': 'd.facebook.com',
                     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
